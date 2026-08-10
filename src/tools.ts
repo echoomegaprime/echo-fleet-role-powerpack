@@ -58,11 +58,7 @@ export function powerpackActivate(roleId: string, confirm?: string, activatedBy?
       allowed: FLEET_ROLES.map((r) => r.id),
     };
   }
-  const needsConfirm =
-    role.risk === "high" ||
-    role.id === "sovereign" ||
-    role.id === "ops" ||
-    role.id === "security";
+  const needsConfirm = role.risk === "high";
   if (needsConfirm && confirm !== "EXECUTE") {
     return {
       ok: false as const,
