@@ -1,7 +1,7 @@
 {
   "name": "@echoomegaprime/echo-fleet-role-powerpack",
-  "version": "1.0.0",
-  "description": "Fleet role powerpack MCP \u2014 list roles, show active role, activate high-risk roles only with confirm=EXECUTE.",
+  "version": "1.3.0",
+  "description": "Fleet role powerpack: governed MCP + canonical Codex echo-fleet-roles skills (sole role-skills source).",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -11,9 +11,11 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "typecheck": "tsc -p tsconfig.json --noEmit",
-    "test": "node --import tsx --test tests/**/*.test.ts",
+    "test": "node --import tsx --test tests/*.test.ts",
     "start": "node dist/cli.js",
-    "dev": "tsx src/cli.ts"
+    "dev": "tsx src/cli.ts",
+    "remediate:codex": "python3 scripts/remediate_codex_plugins.py --lean",
+    "verify:role-skills": "python3 scripts/verify_role_skills_budget.py"
   },
   "engines": {
     "node": ">=20"
@@ -28,7 +30,9 @@
     "mcp",
     "oauth",
     "echoomegaprime",
-    "echo-fleet-role-powerpack"
+    "echo-fleet-role-powerpack",
+    "echo-fleet-roles",
+    "codex-plugins"
   ],
   "devDependencies": {
     "@types/node": "^22.10.0",

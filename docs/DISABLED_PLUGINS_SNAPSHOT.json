@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-08-27T04:40:10.769337+00:00",
+  "canonical": "echo-fleet-roles@echo-omega-prime-marketplace",
+  "disabled": [
+    {
+      "plugin": "vercel@claude-plugins-official",
+      "enabled": false,
+      "reason_key": "duplicate-vercel-claude-official"
+    },
+    {
+      "plugin": "vercel@openai-curated",
+      "enabled": false,
+      "reason_key": "duplicate-vercel-keep-none-fleet-irrelevant"
+    },
+    {
+      "plugin": "figma@claude-plugins-official",
+      "enabled": false,
+      "reason_key": "duplicate-figma-claude-official"
+    },
+    {
+      "plugin": "figma@openai-curated",
+      "enabled": false,
+      "reason_key": "duplicate-figma-keep-none-fleet-irrelevant"
+    },
+    {
+      "plugin": "anthropic-skills@claude-cowork",
+      "enabled": false,
+      "reason_key": "budget-anthropic-skills-54"
+    },
+    {
+      "plugin": "huggingface-skills@claude-plugins-official",
+      "enabled": false,
+      "reason_key": "budget-huggingface-25"
+    },
+    {
+      "plugin": "hugging-face@openai-curated",
+      "enabled": false,
+      "reason_key": "budget-huggingface-openai-curated"
+    },
+    {
+      "plugin": "cloudflare@openai-curated",
+      "enabled": false,
+      "reason_key": "cloudflare-mcp-unauthenticated-transport-fatal"
+    },
+    {
+      "plugin": "canva@openai-curated",
+      "enabled": false,
+      "reason_key": "fleet-irrelevant-design-saas"
+    },
+    {
+      "plugin": "notion@openai-curated",
+      "enabled": false,
+      "reason_key": "fleet-irrelevant-saas"
+    },
+    {
+      "plugin": "slack@openai-curated",
+      "enabled": false,
+      "reason_key": "fleet-irrelevant-saas-use-echo-comms"
+    },
+    {
+      "plugin": "gmail@openai-curated",
+      "enabled": false,
+      "reason_key": "fleet-irrelevant-saas"
+    },
+    {
+      "plugin": "google-drive@openai-curated",
+      "enabled": false,
+      "reason_key": "budget-google-drive-skills"
+    },
+    {
+      "plugin": "openai-templates@openai-curated",
+      "enabled": false,
+      "reason_key": "budget-openai-templates"
+    },
+    {
+      "plugin": "superpowers@openai-curated",
+      "enabled": false,
+      "reason_key": "optional-large-skill-surface"
+    },
+    {
+      "plugin": "data-analytics@openai-curated",
+      "enabled": false,
+      "reason_key": "optional-large-skill-surface"
+    },
+    {
+      "plugin": "echo-fleet-role-powerpack@echoomegaprime",
+      "enabled": false,
+      "reason_key": "retired-duplicate-role-skills-plugin"
+    },
+    {
+      "plugin": "echo-fleet-role-powerpack@echoomegaprime-fleet-roles",
+      "enabled": false,
+      "reason_key": "retired-duplicate-role-skills-plugin"
+    }
+  ]
+}

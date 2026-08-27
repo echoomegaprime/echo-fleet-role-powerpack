@@ -1,0 +1,38 @@
+[
+  {
+    "role_id": "observer",
+    "risk": "info",
+    "activatedAt": "2026-08-27T04:40:11.261Z",
+    "activatedBy": "mcp"
+  },
+  {
+    "role_id": "sovereign",
+    "risk": "high",
+    "activatedAt": "2026-08-27T04:40:11.260Z",
+    "activatedBy": "test"
+  },
+  {
+    "role_id": "observer",
+    "risk": "info",
+    "activatedAt": "2026-08-27T04:38:50.822Z",
+    "activatedBy": "mcp"
+  },
+  {
+    "role_id": "sovereign",
+    "risk": "high",
+    "activatedAt": "2026-08-27T04:38:50.820Z",
+    "activatedBy": "test"
+  },
+  {
+    "role_id": "observer",
+    "risk": "info",
+    "activatedAt": "2026-08-27T04:35:52.344Z",
+    "activatedBy": "mcp"
+  },
+  {
+    "role_id": "sovereign",
+    "risk": "high",
+    "activatedAt": "2026-08-27T04:35:52.339Z",
+    "activatedBy": "test"
+  }
+]

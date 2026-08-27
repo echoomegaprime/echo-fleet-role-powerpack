@@ -1,0 +1,104 @@
+[
+  {
+    "id": "job_e13b86b5da2c",
+    "kind": "roles_switch",
+    "tool": "powerpack_activate",
+    "status": "completed",
+    "input": {
+      "roleId": "observer"
+    },
+    "createdAt": "2026-08-27T04:40:11.261Z",
+    "updatedAt": "2026-08-27T04:40:11.261Z",
+    "result": {
+      "role_id": "observer",
+      "risk": "info",
+      "activatedAt": "2026-08-27T04:40:11.261Z",
+      "activatedBy": "mcp"
+    }
+  },
+  {
+    "id": "job_8f4c9edd1790",
+    "kind": "roles_switch",
+    "tool": "powerpack_activate",
+    "status": "completed",
+    "input": {
+      "roleId": "sovereign"
+    },
+    "createdAt": "2026-08-27T04:40:11.259Z",
+    "updatedAt": "2026-08-27T04:40:11.260Z",
+    "result": {
+      "role_id": "sovereign",
+      "risk": "high",
+      "activatedAt": "2026-08-27T04:40:11.260Z",
+      "activatedBy": "test"
+    }
+  },
+  {
+    "id": "job_63aca82666a0",
+    "kind": "roles_switch",
+    "tool": "powerpack_activate",
+    "status": "completed",
+    "input": {
+      "roleId": "observer"
+    },
+    "createdAt": "2026-08-27T04:38:50.822Z",
+    "updatedAt": "2026-08-27T04:38:50.822Z",
+    "result": {
+      "role_id": "observer",
+      "risk": "info",
+      "activatedAt": "2026-08-27T04:38:50.822Z",
+      "activatedBy": "mcp"
+    }
+  },
+  {
+    "id": "job_9e076a52d2f0",
+    "kind": "roles_switch",
+    "tool": "powerpack_activate",
+    "status": "completed",
+    "input": {
+      "roleId": "sovereign"
+    },
+    "createdAt": "2026-08-27T04:38:50.820Z",
+    "updatedAt": "2026-08-27T04:38:50.821Z",
+    "result": {
+      "role_id": "sovereign",
+      "risk": "high",
+      "activatedAt": "2026-08-27T04:38:50.820Z",
+      "activatedBy": "test"
+    }
+  },
+  {
+    "id": "job_e1d179af8a19",
+    "kind": "roles_switch",
+    "tool": "powerpack_activate",
+    "status": "completed",
+    "input": {
+      "roleId": "observer"
+    },
+    "createdAt": "2026-08-27T04:35:52.340Z",
+    "updatedAt": "2026-08-27T04:35:52.344Z",
+    "result": {
+      "role_id": "observer",
+      "risk": "info",
+      "activatedAt": "2026-08-27T04:35:52.344Z",
+      "activatedBy": "mcp"
+    }
+  },
+  {
+    "id": "job_f0f7301d8652",
+    "kind": "roles_switch",
+    "tool": "powerpack_activate",
+    "status": "completed",
+    "input": {
+      "roleId": "sovereign"
+    },
+    "createdAt": "2026-08-27T04:35:52.338Z",
+    "updatedAt": "2026-08-27T04:35:52.339Z",
+    "result": {
+      "role_id": "sovereign",
+      "risk": "high",
+      "activatedAt": "2026-08-27T04:35:52.339Z",
+      "activatedBy": "test"
+    }
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "name": "echo-fleet-roles",
+  "version": "1.3.0",
+  "description": "Canonical ECHO fleet role-power skills for Codex (merged; sole role-skills source). Includes echo-role-switching.",
+  "author": {
+    "name": "ECHO OMEGA PRIME",
+    "email": "bobbymcwilliams@echo-op.com"
+  },
+  "homepage": "https://github.com/echoomegaprime/echo-fleet-role-powerpack",
+  "repository": "https://github.com/echoomegaprime/echo-fleet-role-powerpack",
+  "license": "MIT",
+  "keywords": [
+    "echo",
+    "fleet",
+    "roles",
+    "codex",
+    "role-switching"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "ECHO Fleet Roles (Canonical)",
+    "shortDescription": "Sole role-power skills source \u2014 30 roles + echo-role-switching + echo-fleet-base.",
+    "longDescription": "Canonical merged role skills. Replaces dual-enable of echo-fleet-role-powerpack@echoomegaprime and echo-fleet-roles@echo-omega-prime-marketplace. Doctrine invocation: echo-fleet-roles:<role>-power.",
+    "developerName": "ECHO OMEGA PRIME",
+    "category": "Developer Tools",
+    "brandColor": "#C9A227",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png"
+  }
+}

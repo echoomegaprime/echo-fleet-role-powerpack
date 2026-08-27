@@ -1,0 +1,23 @@
+{
+  "name": "echo-omega-prime-marketplace",
+  "interface": {
+    "displayName": "ECHO Omega Prime Marketplace (canonical role skills)"
+  },
+  "plugins": [
+    {
+      "name": "echo-fleet-roles",
+      "source": {
+        "source": "local",
+        "path": "./plugins/echo-fleet-roles"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools",
+      "interface": {
+        "displayName": "ECHO Fleet Roles"
+      }
+    }
+  ]
+}
