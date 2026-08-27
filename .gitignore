@@ -6,3 +6,4 @@ data/
 *.log
 coverage/
 .DS_Store
+_grok_build_prompt.txt

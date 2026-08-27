@@ -1,0 +1,902 @@
+{
+  "schema_version": 2,
+  "default_role": "commander",
+  "default_plugin": "echo-fleet-roles@echo-omega-prime-marketplace",
+  "aliases": {
+    "c": "commander",
+    "commander": "commander",
+    "d": "deputy_commander",
+    "deputy": "deputy_commander",
+    "deputy-commander": "deputy_commander",
+    "a": "architect",
+    "architect": "architect",
+    "i": "innovator",
+    "innovator": "innovator",
+    "o": "observer",
+    "observer": "observer",
+    "b": "builder",
+    "builder": "builder",
+    "cli": "cli-build",
+    "cli-build": "cli-build",
+    "p": "publisher",
+    "publisher": "publisher",
+    "e": "enhancer",
+    "enhancer": "enhancer",
+    "r": "researcher",
+    "researcher": "researcher",
+    "t": "trainer",
+    "trainer": "trainer",
+    "s": "sentinel",
+    "sentinel": "sentinel",
+    "curation": "curator",
+    "curator": "curator",
+    "q": "quartermaster",
+    "quartermaster": "quartermaster",
+    "steward": "steward",
+    "beta": "beta",
+    "prime": "echo-prime",
+    "echo-prime": "echo-prime",
+    "marketing": "marketing",
+    "osint": "osint",
+    "surveyor": "surveyor",
+    "troubleshooter": "troubleshooter",
+    "l": "landman",
+    "landman": "landman",
+    "z": "reverse-engineer",
+    "re": "reverse-engineer",
+    "reverse": "reverse-engineer",
+    "reverse-engineer": "reverse-engineer",
+    "pentest": "pentester",
+    "pentester": "pentester",
+    "j": "judge",
+    "judge": "judge",
+    "harbor": "harbormaster",
+    "harbormaster": "harbormaster",
+    "pm": "product-manager",
+    "product": "product-manager",
+    "product-manager": "product-manager",
+    "ux": "experience-designer",
+    "experience-designer": "experience-designer",
+    "data": "data-engineer",
+    "data-engineer": "data-engineer",
+    "compliance": "compliance-officer",
+    "compliance-officer": "compliance-officer"
+  },
+  "roles": {
+    "commander": {
+      "primary_skill": "echo-commander-power",
+      "composed_skills": [
+        "echo-codex-coordinator",
+        "echo-astral-orchestration"
+      ],
+      "scopes": [
+        "echo.caps.*",
+        "echo.fleet.*",
+        "echo.lanes.*",
+        "echo.monitor.*",
+        "echo.observe.*",
+        "echo.sdk.*",
+        "echo.swarm.*"
+      ],
+      "capability_families": [
+        "echo.fleet.*",
+        "echo.lanes.*",
+        "echo.monitor.*",
+        "echo.observe.*",
+        "echo.sdk.*"
+      ],
+      "base_skill": "echo-fleet-base"
+    },
+    "deputy_commander": {
+      "primary_skill": "echo-deputy-commander-power",
+      "composed_skills": [
+        "echo-codex-coordinator",
+        "echo-frontier-infrastructure"
+      ],
+      "scopes": [
+        "echo.caps.*",
+        "echo.fleet.*",
+        "echo.lanes.*",
+        "echo.logaggregator.*",
+        "echo.logs.*",
+        "echo.monitor.*",
+        "echo.psql.*",
+        "echo.sdk.*",
+        "echo.shell.*"
+      ],
+      "capability_families": [
+        "echo.fleet.*",
+        "echo.lanes.*",
+        "echo.logs.*",
+        "echo.monitor.*",
+        "echo.shell.*"
+      ],
+      "base_skill": "echo-fleet-base"
+    },
+    "architect": {
+      "primary_skill": "echo-architect-power",
+      "composed_skills": [
+        "echo-graph-mode",
+        "echo-runbook-generation",
+        "codex-security:threat-model"
+      ],
+      "scopes": [
+        "echo.caps.*",
+        "echo.engine.*",
+        "echo.functions.*",
+        "echo.sdk.*",
+        "echo.swarm.*"
+      ],
+      "capability_families": [
+        "echo.caps.*",
+        "echo.functions.*",
+        "echo.sdk.*"
+      ],
+      "base_skill": "echo-fleet-base"
+    },
+    "innovator": {
+      "primary_skill": "echo-innovator-power",
+      "composed_skills": [
+        "innovator-max:innovator-max",
+        "innovator-max:capability-marketplace",
+        "innovator-max:doorway-integration",
+        "echo-graph-mode"
+      ],
+      "scopes": [
+        "echo.caps.*",
+        "echo.engine.*",
+        "echo.fable.*",
+        "echo.functions.*",
+        "echo.sdk.*",
+        "echo.swarm.*"
+      ],
+      "capability_families": [
+        "echo.caps.*",
+        "echo.functions.*",
+        "echo.sdk.*",
+        "echo.swarm.*"
+      ],
+      "base_skill": "echo-fleet-base"
+    },
+    "observer": {
+      "primary_skill": "echo-observer-power",
+      "composed_skills": [
+        "echo-frontier-infrastructure",
+        "echo-mcp-incident-recovery",
+        "superpowers:systematic-debugging"
+      ],
+      "scopes": [
+        "echo.caps.*",
+        "echo.crucible.*",
+        "echo.logaggregator.*",
+        "echo.logs.*",
+        "echo.monitor.*",
+        "echo.node.*",
+        "echo.observe.*",
+        "echo.sdk.*",
+        "echo.shell.*"
+      ],
+      "capability_families": [
+        "echo.logs.*",
+        "echo.monitor.*",
+        "echo.node.*",
+        "echo.observe.*",
+        "echo.shell.*"
+      ],
+      "base_skill": "echo-fleet-base"
+    },
+    "builder": {
+      "primary_skill": "echo-builder-power",
+      "composed_skills": [
+        "superpowers:test-driven-development",
+        "superpowers:verification-before-completion",
+        "skills-gateway"
+      ],
+      "scopes": [
+        "echo.beta.*",
+        "echo.caps.*",
+        "echo.fable.*",
+        "echo.fs.*",
+        "echo.git.*",
+        "echo.lanes.*",
+        "echo.logaggregator.*",
+        "echo.logs.*",
+        "echo.sdk.*",
+        "echo.shell.*",
+        "echo.vercel.*",
+        "echo.website.*"
+      ],
+      "capability_families": [
+        "echo.fs.*",
+        "echo.git.*",
+        "echo.lanes.*",
+        "echo.shell.*"
+      ],
+      "base_skill": "echo-fleet-base"
+    },
+    "cli-build": {
+      "primary_skill": "echo-cli-build-power",
+      "composed_skills": [
+        "echo-codex-coordinator",
+        "superpowers:test-driven-development",
+        "superpowers:verification-before-completion"
+      ],
+      "scopes": [
+        "echo.caps.*",
+        "echo.fs.*",
+        "echo.git.*",
+        "echo.lanes.*",
+        "echo.logaggregator.*",
+        "echo.logs.*",
+        "echo.sdk.*",
+        "echo.shell.*"
+      ],
+      "capability_families": [
+        "echo.fs.*",
+        "echo.git.*",
+        "echo.lanes.*",
+        "echo.shell.*"
+      ],
+      "base_skill": "echo-fleet-base"
+    },
+    "publisher": {
+      "primary_skill": "echo-publisher-power",
+      "composed_skills": [
+        "echo-delivery-evidence",
+        "github:github"
+      ],
+      "scopes": [
+        "echo.beta.*",
+        "echo.caps.*",
+        "echo.fs.*",
+        "echo.git.*",
+        "echo.sdk.*",
+        "echo.vercel.*",
+        "echo.website.*"
+      ],
+      "capability_families": [
+        "echo.fs.*",
+        "echo.git.*",
+        "echo.website.*"
+      ],
+      "base_skill": "echo-fleet-base"
+    },
+    "enhancer": {
+      "primary_skill": "echo-enhancer-power",
+      "composed_skills": [
+        "codex-security:security-diff-scan",
+        "codex-security:validation",
+        "superpowers:test-driven-development",
+        "superpowers:verification-before-completion"
+      ],
+      "scopes": [
+        "echo.caps.*",
+        "echo.fs.*",
+        "echo.functions.*",
+        "echo.git.*",
+        "echo.monitor.*",
+        "echo.sdk.*",
+        "echo.shell.*"
+      ],
+      "capability_families": [
+        "echo.fs.*",
+        "echo.functions.*",
+        "echo.git.*"
+      ],
+      "base_skill": "echo-fleet-base"
+    },
+    "researcher": {
+      "primary_skill": "echo-researcher-power",
+      "composed_skills": [
+        "echo-ragops",
+        "browser-automation"
+      ],
+      "scopes": [
+        "claude.shadowglass.*",
+        "echo.caps.*",
+        "echo.grok.*",
+        "echo.knowledge.*",
+        "echo.library.*",
+        "echo.sdk.*",
+        "echo.swarm.*"
+      ],
+      "capability_families": [
+        "claude.shadowglass.*",
+        "echo.grok.*",
+        "echo.swarm.*"
+      ],
+      "base_skill": "echo-fleet-base"
+    },
+    "trainer": {
+      "primary_skill": "echo-trainer-power",
+      "composed_skills": [
+        "ai-ml-mastery",
+        "data-pipeline",
+        "finetuning",
+        "echo-frontier-infrastructure"
+      ],
+      "scopes": [
+        "echo.caps.*",
+        "echo.engine.*",
+        "echo.fs.*",
+        "echo.logaggregator.*",
+        "echo.logs.*",
+        "echo.modelhost.*",
+        "echo.monitor.*",
+        "echo.node.*",
+        "echo.sdk.*",
+        "echo.shell.*"
+      ],
+      "capability_families": [
+        "echo.modelhost.*",
+        "echo.monitor.*",
+        "echo.node.*"
+      ],
+      "base_skill": "echo-fleet-base"
+    },
+    "sentinel": {
+      "primary_skill": "echo-sentinel-power",
+      "composed_skills": [
+        "codex-security:security-scan",
+        "codex-security:deep-security-scan",
+        "codex-security:threat-model",
+        "codex-security:track-findings",
+        "codex-security:validation"
+      ],
+      "scopes": [
+        "echo.autoshield.*",
+        "echo.caps.*",
+        "echo.crucible.*",
+        "echo.guardian.*",
+        "echo.logaggregator.*",
+        "echo.logs.*",
+        "echo.monitor.*",
+        "echo.sdk.*",
+        "echo.shell.*"
+      ],
+      "capability_families": [
+        "echo.crucible.*",
+        "echo.guardian.*",
+        "echo.monitor.*"
+      ],
+      "base_skill": "echo-fleet-base"
+    },
+    "curator": {
+      "primary_skill": "echo-curator-power",
+      "composed_skills": [
+        "echo-ragops",
+        "memory-orchestration",
+        "contextual-memory-bridge",
+        "consolidate-memory"
+      ],
+      "scopes": [
+        "echo.caps.*",
+        "echo.fs.*",
+        "echo.knowledge.*",
+        "echo.library.*",
+        "echo.memory-spine.*",
+        "echo.memoryconsolidationnode.*",
+        "echo.sdk.*"
+      ],
+      "capability_families": [
+        "echo.knowledge.*",
+        "echo.library.*",
+        "echo.memory-spine.*",
+        "echo.memoryconsolidationnode.*"
+      ],
+      "base_skill": "echo-fleet-base"
+    },
+    "quartermaster": {
+      "primary_skill": "echo-quartermaster-power",
+      "composed_skills": [
+        "skills-gateway",
+        "mcp-constellation",
+        "mcp-builder",
+        "plugin-creator",
+        "skill-creator"
+      ],
+      "scopes": [
+        "echo.caps.*",
+        "echo.functions.*",
+        "echo.lanes.*",
+        "echo.library.*",
+        "echo.logaggregator.*",
+        "echo.logs.*",
+        "echo.mega.*",
+        "echo.sdk.*",
+        "echo.shell.*",
+        "echo.skills.*"
+      ],
+      "capability_families": [
+        "echo.caps.*",
+        "echo.library.*",
+        "echo.sdk.*",
+        "echo.skills.*"
+      ],
+      "base_skill": "echo-fleet-base"
+    },
+    "steward": {
+      "primary_skill": "echo-steward-power",
+      "composed_skills": [
+        "echo-frontier-infrastructure",
+        "echo-runbook-generation"
+      ],
+      "scopes": [
+        "echo.backup.*",
+        "echo.caps.*",
+        "echo.fs.*",
+        "echo.git.*",
+        "echo.logaggregator.*",
+        "echo.logs.*",
+        "echo.monitor.*",
+        "echo.node.*",
+        "echo.sdk.*",
+        "echo.shell.*"
+      ],
+      "capability_families": [
+        "echo.fs.*",
+        "echo.monitor.*",
+        "echo.node.*"
+      ],
+      "base_skill": "echo-fleet-base"
+    },
+    "beta": {
+      "primary_skill": "echo-beta-power",
+      "composed_skills": [
+        "browser-automation",
+        "echo-delivery-evidence",
+        "data-analytics:validate-data"
+      ],
+      "scopes": [
+        "claude.shadowglass.*",
+        "echo.beta.*",
+        "echo.caps.*",
+        "echo.sdk.*",
+        "echo.sentinel.*",
+        "echo.website.*"
+      ],
+      "capability_families": [
+        "claude.shadowglass.*",
+        "echo.beta.*",
+        "echo.website.*"
+      ],
+      "base_skill": "echo-fleet-base"
+    },
+    "echo-prime": {
+      "primary_skill": "echo-prime-power",
+      "composed_skills": [
+        "echo-prime-core",
+        "echo-omnipresence-operator",
+        "echo-astral-orchestration",
+        "echo-graph-mode"
+      ],
+      "scopes": [
+        "claude.shadowglass.*",
+        "echo.caps.*",
+        "echo.cognition.*",
+        "echo.echo_speak.*",
+        "echo.nest.*",
+        "echo.personality.*",
+        "echo.sdk.*",
+        "echo.sentinel.*",
+        "echo.smarthome.*",
+        "echo.swarm.*",
+        "echo.talkpipeline.*"
+      ],
+      "capability_families": [
+        "echo.cognition.*",
+        "echo.personality.*",
+        "echo.sentinel.*",
+        "echo.swarm.*"
+      ],
+      "base_skill": "echo-fleet-base"
+    },
+    "marketing": {
+      "primary_skill": "echo-marketing-power",
+      "composed_skills": [
+        "brand-guidelines",
+        "internal-comms",
+        "browser-automation",
+        "echo-delivery-evidence"
+      ],
+      "scopes": [
+        "claude.shadowglass.*",
+        "echo.caps.*",
+        "echo.grok.*",
+        "echo.image.*",
+        "echo.sdk.*",
+        "echo.social.*",
+        "echo.vercel.*",
+        "echo.website.*"
+      ],
+      "capability_families": [
+        "claude.shadowglass.*",
+        "echo.grok.*",
+        "echo.website.*"
+      ],
+      "base_skill": "echo-fleet-base"
+    },
+    "osint": {
+      "primary_skill": "echo-osint-power",
+      "composed_skills": [
+        "browser-automation",
+        "ethical-hacking-mastery",
+        "echo-frontier-infrastructure"
+      ],
+      "scopes": [
+        "claude.shadowglass.*",
+        "echo.caps.*",
+        "echo.crucible.*",
+        "echo.fs.*",
+        "echo.sdk.*"
+      ],
+      "capability_families": [
+        "claude.shadowglass.*",
+        "echo.crucible.*"
+      ],
+      "base_skill": "echo-fleet-base"
+    },
+    "surveyor": {
+      "primary_skill": "echo-surveyor-power",
+      "composed_skills": [
+        "echo-runbook-generation",
+        "superpowers:systematic-debugging"
+      ],
+      "scopes": [
+        "echo.caps.*",
+        "echo.fs.*",
+        "echo.git.*",
+        "echo.logaggregator.*",
+        "echo.logs.*",
+        "echo.monitor.*",
+        "echo.node.*",
+        "echo.psql.*",
+        "echo.sdk.*",
+        "echo.shell.*"
+      ],
+      "capability_families": [
+        "echo.fs.*",
+        "echo.monitor.*",
+        "echo.node.*"
+      ],
+      "base_skill": "echo-fleet-base"
+    },
+    "troubleshooter": {
+      "primary_skill": "echo-troubleshooter-power",
+      "composed_skills": [
+        "superpowers:systematic-debugging",
+        "echo-mcp-incident-recovery",
+        "echo-frontier-infrastructure"
+      ],
+      "scopes": [
+        "echo.caps.*",
+        "echo.logaggregator.*",
+        "echo.logs.*",
+        "echo.monitor.*",
+        "echo.node.*",
+        "echo.sdk.*",
+        "echo.shell.*"
+      ],
+      "capability_families": [
+        "echo.logaggregator.*",
+        "echo.logs.*",
+        "echo.monitor.*",
+        "echo.shell.*"
+      ],
+      "base_skill": "echo-fleet-base"
+    },
+    "landman": {
+      "primary_skill": "echo-landman-power",
+      "composed_skills": [
+        "echo-landman-operator",
+        "browser-automation",
+        "echo-delivery-evidence"
+      ],
+      "scopes": [
+        "claude.shadowglass.*",
+        "echo.caps.*",
+        "echo.documentdelivery.*",
+        "echo.fs.*",
+        "echo.landman.*",
+        "echo.sdk.*"
+      ],
+      "capability_families": [
+        "claude.shadowglass.*",
+        "echo.landman.*"
+      ],
+      "base_skill": "echo-fleet-base"
+    },
+    "reverse-engineer": {
+      "primary_skill": "echo-reverse-engineering",
+      "composed_skills": [
+        "browser-automation",
+        "ethical-hacking-mastery",
+        "codex-security:deep-security-scan",
+        "superpowers:systematic-debugging",
+        "superpowers:test-driven-development"
+      ],
+      "scopes": [
+        "claude.shadowglass.*",
+        "echo.caps.*",
+        "echo.crucible.*",
+        "echo.node.*",
+        "echo.prometheus.*",
+        "echo.re.*",
+        "echo.sdk.*"
+      ],
+      "capability_families": [
+        "claude.shadowglass.*",
+        "echo.crucible.*",
+        "echo.node.*",
+        "echo.prometheus.*",
+        "echo.re.apk.*",
+        "echo.re.binary.*"
+      ],
+      "base_skill": "echo-fleet-base"
+    },
+    "pentester": {
+      "primary_skill": "echo-pentester-power",
+      "composed_skills": [
+        "ethical-hacking-mastery",
+        "codex-security:attack-path-analysis",
+        "codex-security:threat-model",
+        "codex-security:finding-discovery",
+        "codex-security:track-findings"
+      ],
+      "scopes": [
+        "claude.shadowglass.*",
+        "echo.autoshield.*",
+        "echo.caps.*",
+        "echo.crucible.*",
+        "echo.cruciblepentest.*",
+        "echo.defend.*",
+        "echo.devicelab.*",
+        "echo.guardian.*",
+        "echo.logaggregator.*",
+        "echo.logs.*",
+        "echo.monitor.*",
+        "echo.node.*",
+        "echo.prometheus.*",
+        "echo.re.*",
+        "echo.sdk.*"
+      ],
+      "capability_families": [
+        "claude.shadowglass.*",
+        "echo.autoshield.*",
+        "echo.crucible.*",
+        "echo.cruciblepentest.*",
+        "echo.defend.*",
+        "echo.devicelab.*",
+        "echo.guardian.*",
+        "echo.logaggregator.*",
+        "echo.logs.*",
+        "echo.monitor.*",
+        "echo.node.*",
+        "echo.prometheus.*",
+        "echo.re.*"
+      ],
+      "base_skill": "echo-fleet-base"
+    },
+    "judge": {
+      "primary_skill": "echo-judge-power",
+      "composed_skills": [
+        "codex-security:validation",
+        "superpowers:verification-before-completion",
+        "data-analytics:validate-data"
+      ],
+      "scopes": [
+        "echo.beta.*",
+        "echo.buildtracker.*",
+        "echo.caps.*",
+        "echo.certforge.*",
+        "echo.git.*",
+        "echo.logaggregator.*",
+        "echo.logs.*",
+        "echo.monitor.*",
+        "echo.qatester.*",
+        "echo.sdk.*"
+      ],
+      "capability_families": [
+        "echo.beta.*",
+        "echo.buildtracker.*",
+        "echo.certforge.*",
+        "echo.qatester.*"
+      ],
+      "base_skill": "echo-fleet-base"
+    },
+    "harbormaster": {
+      "primary_skill": "echo-harbormaster-power",
+      "composed_skills": [
+        "echo-delivery-evidence",
+        "echo-runbook-generation",
+        "github:github"
+      ],
+      "scopes": [
+        "echo.auth.*",
+        "echo.buildtracker.*",
+        "echo.caps.*",
+        "echo.certforge.*",
+        "echo.git.*",
+        "echo.logaggregator.*",
+        "echo.logs.*",
+        "echo.monitor.*",
+        "echo.sdk.*",
+        "echo.shell.*",
+        "echo.vercel.*",
+        "echo.website.*"
+      ],
+      "capability_families": [
+        "echo.certforge.*",
+        "echo.git.*",
+        "echo.vercel.*",
+        "echo.website.*"
+      ],
+      "base_skill": "echo-fleet-base"
+    },
+    "product-manager": {
+      "primary_skill": "echo-product-manager-power",
+      "composed_skills": [
+        "data-analytics:gather-business-context",
+        "data-analytics:product-business-analysis",
+        "data-analytics:design-kpis",
+        "data-analytics:market-sizing",
+        "doc-coauthoring"
+      ],
+      "scopes": [
+        "echo.beta.*",
+        "echo.betaportal.*",
+        "echo.builds.*",
+        "echo.buildtracker.*",
+        "echo.caps.*",
+        "echo.commerce.*",
+        "echo.context.*",
+        "echo.knowledge.*",
+        "echo.prompts.*",
+        "echo.sdk.*",
+        "echo.swarm.*"
+      ],
+      "capability_families": [
+        "echo.beta.*",
+        "echo.betaportal.*",
+        "echo.buildtracker.*",
+        "echo.prompts.*"
+      ],
+      "base_skill": "echo-fleet-base"
+    },
+    "experience-designer": {
+      "primary_skill": "echo-experience-designer-power",
+      "composed_skills": [
+        "figma:figma-use",
+        "figma:figma-generate-design",
+        "browser-automation",
+        "brand-guidelines",
+        "gui-building-prime"
+      ],
+      "scopes": [
+        "claude.shadowglass.*",
+        "echo.beta.*",
+        "echo.betaportal.*",
+        "echo.caps.*",
+        "echo.grok.*",
+        "echo.image.*",
+        "echo.sdk.*",
+        "echo.sentinel.*",
+        "echo.website.*"
+      ],
+      "capability_families": [
+        "claude.shadowglass.*",
+        "echo.beta.*",
+        "echo.betaportal.*",
+        "echo.website.*"
+      ],
+      "base_skill": "echo-fleet-base"
+    },
+    "data-engineer": {
+      "primary_skill": "echo-data-engineer-power",
+      "composed_skills": [
+        "data-pipeline",
+        "data-analytics:analyze-data-quality",
+        "data-analytics:validate-data",
+        "echo-frontier-infrastructure"
+      ],
+      "scopes": [
+        "echo.backup.*",
+        "echo.brain.*",
+        "echo.caps.*",
+        "echo.crystal.*",
+        "echo.fs.*",
+        "echo.knowledge.*",
+        "echo.logaggregator.*",
+        "echo.logs.*",
+        "echo.monitor.*",
+        "echo.node.*",
+        "echo.psql.*",
+        "echo.sdk.*",
+        "echo.shell.*"
+      ],
+      "capability_families": [
+        "echo.backup.*",
+        "echo.fs.*",
+        "echo.knowledge.*",
+        "echo.monitor.*",
+        "echo.psql.*"
+      ],
+      "base_skill": "echo-fleet-base"
+    },
+    "compliance-officer": {
+      "primary_skill": "echo-compliance-officer-power",
+      "composed_skills": [
+        "codex-security:define-security-policy",
+        "codex-security:threat-model",
+        "echo-delivery-evidence",
+        "data-analytics:validate-data"
+      ],
+      "scopes": [
+        "echo.audit.*",
+        "echo.builds.*",
+        "echo.caps.*",
+        "echo.comms.*",
+        "echo.compliance.*",
+        "echo.complianceauditor.*",
+        "echo.doctrine.*",
+        "echo.git.*",
+        "echo.knowledge.*",
+        "echo.sdk.*"
+      ],
+      "capability_families": [
+        "echo.audit.*",
+        "echo.comms.*",
+        "echo.compliance.*",
+        "echo.complianceauditor.*",
+        "echo.doctrine.*"
+      ],
+      "base_skill": "echo-fleet-base"
+    }
+  },
+  "compiled": {
+    "base_skill": "echo-fleet-base",
+    "max_role_specific_composed": 5,
+    "materialized_skills": [
+      "echo-commander-power",
+      "echo-deputy-commander-power",
+      "echo-architect-power",
+      "echo-innovator-power",
+      "echo-observer-power",
+      "echo-builder-power",
+      "echo-cli-build-power",
+      "echo-publisher-power",
+      "echo-enhancer-power",
+      "echo-researcher-power",
+      "echo-trainer-power",
+      "echo-sentinel-power",
+      "echo-curator-power",
+      "echo-quartermaster-power",
+      "echo-steward-power",
+      "echo-beta-power",
+      "echo-prime-power",
+      "echo-marketing-power",
+      "echo-osint-power",
+      "echo-surveyor-power",
+      "echo-troubleshooter-power",
+      "echo-landman-power",
+      "echo-reverse-engineering",
+      "echo-pentester-power",
+      "echo-judge-power",
+      "echo-harbormaster-power",
+      "echo-product-manager-power",
+      "echo-experience-designer-power",
+      "echo-data-engineer-power",
+      "echo-compliance-officer-power"
+    ]
+  },
+  "canonical_decision": {
+    "winner": "echo-fleet-roles@echo-omega-prime-marketplace",
+    "retired_skills_plugin": "echo-fleet-role-powerpack@echoomegaprime",
+    "rationale": "Doctrine invokes echo-fleet-roles:<role>-power; never dual-enable powerpack skills plugin.",
+    "merge_policy": {
+      "role_power_bodies": "CLAUDE_CODE_MARKETPLACE/plugins/echo-fleet-roles (rich production SKILL.md)",
+      "echo_role_switching": "echo-fleet-roles/plugins/codex/echo-fleet-role-powerpack (richer control skill)",
+      "echo_fleet_base": "marketplace (powerpack lacked it)"
+    }
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "plugin": "echo-fleet-roles@echo-omega-prime-marketplace",
+  "version": "1.3.0",
+  "skill_count": 32,
+  "decision": "marketplace role bodies + powerpack echo-role-switching; retire powerpack as skills plugin",
+  "skills": {
+    "echo-architect-power": {
+      "sha256": "45b5badd0abe7158e84436b6bbd78d7047f9fbb658f06ab46535c6e2a3bc2843",
+      "bytes": 10795,
+      "source_won": "marketplace-claude-code-echo-fleet-roles"
+    },
+    "echo-beta-power": {
+      "sha256": "1c4c9d31a8d6d02eff4b2e0198f3e665d36aef608c6976b872564840ea982aec",
+      "bytes": 22366,
+      "source_won": "marketplace-claude-code-echo-fleet-roles"
+    },
+    "echo-builder-power": {
+      "sha256": "ecda3951cf569b567747bbfe502b062426adeec62eb5781b1c77aa4f719ebf7b",
+      "bytes": 20139,
+      "source_won": "marketplace-claude-code-echo-fleet-roles"
+    },
+    "echo-cli-build-power": {
+      "sha256": "6b7fb64223720b4267ad6fef9151b547ff215d5c2eefa7b38c42e583d352de2e",
+      "bytes": 17217,
+      "source_won": "marketplace-claude-code-echo-fleet-roles"
+    },
+    "echo-commander-power": {
+      "sha256": "36f260ddc19b947f42743919a54d6e7dde2c0fae51f94fb377260bfe39755b9e",
+      "bytes": 6435,
+      "source_won": "marketplace-claude-code-echo-fleet-roles"
+    },
+    "echo-compliance-officer-power": {
+      "sha256": "13c89171f7737f78be25b430e013f3d901907f79912d7744bbbb35b397173866",
+      "bytes": 24884,
+      "source_won": "marketplace-claude-code-echo-fleet-roles"
+    },
+    "echo-curator-power": {
+      "sha256": "b607922e4d51143740182db44ccfae8f6cbbebddc6897cf8a00f5007a2fbf5f2",
+      "bytes": 24543,
+      "source_won": "marketplace-claude-code-echo-fleet-roles"
+    },
+    "echo-data-engineer-power": {
+      "sha256": "d382191c39c29cd561244e1d50b24681fc3bd4733ae0eab96fe6fc0a45032e94",
+      "bytes": 31960,
+      "source_won": "marketplace-claude-code-echo-fleet-roles"
+    },
+    "echo-deputy-commander-power": {
+      "sha256": "bdcb27505d3b77c1f50701664b48bcfc34a230fe8ec3019962ffc0da10f52b5c",
+      "bytes": 6357,
+      "source_won": "marketplace-claude-code-echo-fleet-roles"
+    },
+    "echo-enhancer-power": {
+      "sha256": "13d9a6cf32e344b0ccbafe4cfd161c10956517bb993f9131bf495a82f8043499",
+      "bytes": 28969,
+      "source_won": "marketplace-claude-code-echo-fleet-roles"
+    },
+    "echo-experience-designer-power": {
+      "sha256": "2ba0d380a4990652e0936b1b4ef90271b076bc4e62e0291d3d62f50c25f67591",
+      "bytes": 43002,
+      "source_won": "marketplace-claude-code-echo-fleet-roles"
+    },
+    "echo-fleet-base": {
+      "sha256": "79a222ce37acb732112352677b6e382440ad43e4a10743073fde571da8f28d86",
+      "bytes": 2246,
+      "source_won": "marketplace-claude-code-echo-fleet-roles"
+    },
+    "echo-harbormaster-power": {
+      "sha256": "986522904bac442a53f1334eb99f98a0ad866e3d76182cac3b366cbff79c8934",
+      "bytes": 8035,
+      "source_won": "marketplace-claude-code-echo-fleet-roles"
+    },
+    "echo-innovator-power": {
+      "sha256": "6cd9400ca9316ce9ededd4fa552e2ea3a136bb79c902aeb80a6d87fad5f8d391",
+      "bytes": 13813,
+      "source_won": "marketplace-claude-code-echo-fleet-roles"
+    },
+    "echo-judge-power": {
+      "sha256": "7a5f7fcb0ab5e2fc60ca83bbe00e59d9de3fb16483810da1c3e576abee2408ba",
+      "bytes": 25078,
+      "source_won": "marketplace-claude-code-echo-fleet-roles"
+    },
+    "echo-landman-power": {
+      "sha256": "049debabcd1471571471401149892a572620c816c097eeae1d9bf90d0cf25f1d",
+      "bytes": 19204,
+      "source_won": "marketplace-claude-code-echo-fleet-roles"
+    },
+    "echo-marketing-power": {
+      "sha256": "3b80af8103cf58eb80b9b5ce4ab0fc418c9420bfb0a608fc1eb3ca9379a0fc4a",
+      "bytes": 21443,
+      "source_won": "marketplace-claude-code-echo-fleet-roles"
+    },
+    "echo-observer-power": {
+      "sha256": "d9f26e2231dbd79b1350dece89f85177ae5ca5a3151a09a56c018aeaa144b688",
+      "bytes": 21192,
+      "source_won": "marketplace-claude-code-echo-fleet-roles"
+    },
+    "echo-osint-power": {
+      "sha256": "a9ede7b9869df12c3ac95d565e299cb0d2d1dc7387beb850f2c00f6e2a4b0d2c",
+      "bytes": 22337,
+      "source_won": "marketplace-claude-code-echo-fleet-roles"
+    },
+    "echo-pentester-power": {
+      "sha256": "8800b64a5703d5fea0ae5b2a45afa502b2bc0313aa7f0afdfc0c38ff0accda41",
+      "bytes": 45248,
+      "source_won": "marketplace-claude-code-echo-fleet-roles"
+    },
+    "echo-prime-power": {
+      "sha256": "ad205511b7b73b76024db25c8909bc4a96432fc183513fe3473a2bdb2693a0ae",
+      "bytes": 17308,
+      "source_won": "marketplace-claude-code-echo-fleet-roles"
+    },
+    "echo-product-manager-power": {
+      "sha256": "ad2ad2d92438e1bc07af96c165333d1b5c1da3ff6e847cf6e2e9c7d4ea74a7a0",
+      "bytes": 44770,
+      "source_won": "marketplace-claude-code-echo-fleet-roles"
+    },
+    "echo-publisher-power": {
+      "sha256": "95350891ff3a3358b6e5b5ec51489f0cd883142feef342c805bf7c10b7f6dad3",
+      "bytes": 6282,
+      "source_won": "marketplace-claude-code-echo-fleet-roles"
+    },
+    "echo-quartermaster-power": {
+      "sha256": "cadf2b6c775fc986948a743dc92fa2fc402d5cdf2cc16267ccaed4767effe33a",
+      "bytes": 40638,
+      "source_won": "marketplace-claude-code-echo-fleet-roles"
+    },
+    "echo-researcher-power": {
+      "sha256": "e7e06ed8fb3ed52eb03c7e7bef07d3a4106b1e65f60967e7e275f0a4cf689c2e",
+      "bytes": 14329,
+      "source_won": "marketplace-claude-code-echo-fleet-roles"
+    },
+    "echo-reverse-engineering": {
+      "sha256": "f85088e50fc228c614e1a4b4c90195bb38b41decaf779456ea2f93eb7eae966a",
+      "bytes": 50405,
+      "source_won": "marketplace-claude-code-echo-fleet-roles"
+    },
+    "echo-role-switching": {
+      "sha256": "c76fb3ba0ce3364fff31eff7400e54eb711ff3945f4bf129bbe4d8ee89ada66a",
+      "bytes": 1930,
+      "source_won": "powerpack-codex-plugin"
+    },
+    "echo-sentinel-power": {
+      "sha256": "ffbcd25ae3aad8266cf27eb977260206d9ab449b0f9cf008cb620abb6666f5b6",
+      "bytes": 39842,
+      "source_won": "marketplace-claude-code-echo-fleet-roles"
+    },
+    "echo-steward-power": {
+      "sha256": "ac61beaff31e74cf185389eaba571c19122b000d0522b5c282e0594be3f5ebd2",
+      "bytes": 6179,
+      "source_won": "marketplace-claude-code-echo-fleet-roles"
+    },
+    "echo-surveyor-power": {
+      "sha256": "b7bfa362adeebc69e64b7c292944cf2d45dba029c163c157cd6f619fb37b81f4",
+      "bytes": 13423,
+      "source_won": "marketplace-claude-code-echo-fleet-roles"
+    },
+    "echo-trainer-power": {
+      "sha256": "ca071afc6b5cd6a9846a11f10765e0994b17e570565c05e1208bb2bf9c27ee36",
+      "bytes": 23740,
+      "source_won": "marketplace-claude-code-echo-fleet-roles"
+    },
+    "echo-troubleshooter-power": {
+      "sha256": "f0318e5d9d7de33ade081c246cd466dd550f1fa1a3d996623dda9edf13ea8781",
+      "bytes": 21186,
+      "source_won": "marketplace-claude-code-echo-fleet-roles"
+    }
+  }
+}
